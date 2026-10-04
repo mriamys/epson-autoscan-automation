@@ -47,6 +47,75 @@ def get_escl_state(ip):
         pass
     return None
 
+def show_notification(title, msg):
+    try:
+        import subprocess
+        ps = f"""
+Add-Type -AssemblyName System.Windows.Forms
+$balloon = New-Object System.Windows.Forms.NotifyIcon
+$balloon.Icon = [System.Drawing.SystemIcons]::Information
+$balloon.BalloonTipIcon = 'Info'
+$balloon.BalloonTipTitle = '{title}'
+$balloon.BalloonTipText = '{msg}'
+$balloon.Visible = $True
+$balloon.ShowBalloonTip(5000)
+Start-Sleep -Seconds 5
+$balloon.Dispose()
+"""
+        subprocess.Popen(['powershell', '-WindowStyle', 'Hidden', '-Command', ps], creationflags=subprocess.CREATE_NO_WINDOW)
+    except Exception as e:
+        log(f"Notify error: {e}")
+
+def send_to_trash(path):
+    try:
+        import ctypes
+        from ctypes import wintypes
+        import os
+        class SHFILEOPSTRUCTW(ctypes.Structure):
+            _fields_ = [('hwnd', wintypes.HWND), ('wFunc', wintypes.UINT),
+                        ('pFrom', wintypes.LPCWSTR), ('pTo', wintypes.LPCWSTR),
+                        ('fFlags', wintypes.UINT), ('fAnyOperationsAborted', wintypes.BOOL),
+                        ('hNameMappings', wintypes.LPVOID), ('lpszProgressTitle', wintypes.LPCWSTR)]
+        path = os.path.abspath(path) + '\0\0'
+        shf = SHFILEOPSTRUCTW()
+        shf.hwnd = 0
+        shf.wFunc = 3 # FO_DELETE
+        shf.pFrom = path
+        shf.pTo = None
+        shf.fFlags = 64 | 16 # FOF_ALLOWUNDO | FOF_NOCONFIRMATION
+        shf.fAnyOperationsAborted = 0
+        shf.hNameMappings = 0
+        shf.lpszProgressTitle = None
+        ctypes.windll.shell32.SHFileOperationW(ctypes.byref(shf))
+    except Exception as e:
+        log(f"Trash error: {e}")
+
+def is_blank_page(filepath):
+    try:
+        from PIL import Image
+        im = Image.open(filepath).convert('L')
+        # Check standard deviation
+        from PIL import ImageStat
+        stat = ImageStat.Stat(im)
+        stddev = stat.stddev[0]
+        mean = stat.mean[0]
+        # A totally blank page usually has low stddev and high mean
+        # Even with shadows, if it's very blank (stddev < 30 and mean > 200)
+        # But wait, earlier blank had stddev 50! Let's just use the bounding box logic.
+        
+        # Ink detection
+        im.thumbnail((500, 500))
+        ink = im.point(lambda p: 255 if p < 230 else 0)
+        data = list(ink.getdata())
+        ink_pixels = sum(1 for p in data if p == 255)
+        # 500x500 thumbnail = 250,000 pixels. Blank page has very few ink pixels.
+        if ink_pixels < 2500:
+            return True
+        return False
+    except Exception as e:
+        log(f"Error checking blank page: {e}")
+        return False
+
 def trigger_scan(config):
     ip = config["printer_ip"]
     dpi = config["dpi"]
@@ -107,7 +176,13 @@ def trigger_scan(config):
                 with open(filepath, 'wb') as f:
                     f.write(doc_resp.read())
                     
-            log(f"[{datetime.datetime.now()}] Successfully saved to: {filepath}")
+            if is_blank_page(filepath):
+                log(f"[{datetime.datetime.now()}] Blank scan detected! Trashing {filepath}")
+                send_to_trash(filepath)
+                show_notification("Epson AutoScan", "Бланк скана удалён (печать с телефона).")
+            else:
+                log(f"[{datetime.datetime.now()}] Successfully saved to: {filepath}")
+                show_notification("Epson AutoScan", "Новый скан успешно сохранён!")
             
             try:
                 delete_url = location
