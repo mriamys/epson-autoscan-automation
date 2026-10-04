@@ -44,7 +44,7 @@ class App:
         # DPI
         tk.Label(root, text="Качество (DPI скана):").grid(row=2, column=0, sticky="w", padx=10, pady=10)
         self.dpi_var = tk.StringVar(value=str(self.config.get("dpi", 300)))
-        ttk.Combobox(root, textvariable=self.dpi_var, values=["100", "200", "300", "600"], width=10).grid(row=2, column=1, sticky="w")
+        ttk.Combobox(root, textvariable=self.dpi_var, values=["100", "200", "300", "600", "1200"], width=10).grid(row=2, column=1, sticky="w")
         
         # Color Mode
         tk.Label(root, text="Режим цвета:").grid(row=3, column=0, sticky="w", padx=10, pady=10)
