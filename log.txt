@@ -1429,3 +1429,34 @@ Downloading from: https://192.168.0.122:443/eSCL/ScanJobs/73771340-4378-44ff-b4f
 [2026-10-04 19:50:35.743323] State changed: None -> Idle
 [2026-10-04 19:51:15.170844] Epson AutoScan Service Started!
 [2026-10-04 19:51:15.310720] State changed: None -> Idle
+[2026-10-04 19:53:00.513674] Epson AutoScan Service Started!
+[2026-10-04 19:53:00.636484] State changed: None -> Idle
+[2026-10-04 19:53:52.260472] State changed: Idle -> Processing
+[2026-10-04 19:53:52.260768] Printer is now active.
+[2026-10-04 19:53:52.383102] Web UI Printer Status: Busy.
+[2026-10-04 19:54:06.787068] State changed: Processing -> Idle
+[2026-10-04 19:54:06.787416] Printer returned to Idle.
+Printer finished a Copy. Waiting 1 second for mechanisms to settle...
+[2026-10-04 19:54:07.788081] Triggering network scan at 300 DPI...
+Downloading from: https://192.168.0.122:443/eSCL/ScanJobs/b9dc3a47-bf47-4382-ba8e-5710504351ae/NextDocument
+[2026-10-04 19:54:35.533358] Successfully saved to: C:\Users\Administrator\Pictures\EpsonScan_20261004_195408.jpg
+[2026-10-04 19:54:35.614190] Scan job released on printer.
+[2026-10-04 19:55:38.444336] State changed: Idle -> Processing
+[2026-10-04 19:55:38.444744] Printer is now active.
+[2026-10-04 19:55:38.572366] Web UI Printer Status: Busy.
+[2026-10-04 19:55:38.869131] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-04 19:55:51.813273] State changed: Processing -> Idle
+[2026-10-04 19:55:51.813657] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-04 19:58:24.352713] Epson AutoScan Service Started!
+[2026-10-04 19:58:24.453096] State changed: None -> Idle
+[2026-10-04 19:59:27.463874] State changed: Idle -> Processing
+[2026-10-04 19:59:27.464268] Printer is now active.
+[2026-10-04 19:59:27.580852] Web UI Printer Status: Available.
+[2026-10-04 19:59:40.837730] State changed: Processing -> Idle
+[2026-10-04 19:59:40.838180] Printer returned to Idle.
+Printer finished a Copy. Waiting 1 second for mechanisms to settle...
+[2026-10-04 19:59:41.839134] Triggering network scan at 300 DPI...
+Downloading from: https://192.168.0.122:443/eSCL/ScanJobs/13f12db1-7777-4b6d-b048-5983b101aa68/NextDocument
+[2026-10-04 20:00:05.550296] Successfully saved to: C:\Users\Administrator\Pictures\EpsonScan_20261004_195943.jpg
+[2026-10-04 20:00:05.625943] Scan job released on printer.

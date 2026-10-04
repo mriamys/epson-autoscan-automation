@@ -154,6 +154,7 @@ def main():
             copy_in_progress = True
             was_pc_printing = False
             
+        if copy_in_progress and not was_pc_printing:
             # Check Printer Web UI to see if it's printing
             try:
                 import urllib.request, ssl, re
@@ -166,14 +167,15 @@ def main():
                     m = re.search(r'Printer Status.*?<li[^>]*>\s*([^<]+)\s*</li>', html, re.IGNORECASE | re.DOTALL)
                     if m:
                         web_status = m.group(1).strip()
-                        log(f"[{datetime.datetime.now()}] Web UI Printer Status: {web_status}")
-                        if 'print' in web_status.lower() or 'печать' in web_status.lower():
+                        if web_status != "Available." and web_status != "Доступен.":
+                            log(f"[{datetime.datetime.now()}] Web UI Printer Status: {web_status}")
+                        if 'print' in web_status.lower() or 'печать' in web_status.lower() or 'печат' in web_status.lower():
                             was_pc_printing = True
                             log(f"[{datetime.datetime.now()}] Detected Printing via Web UI! Will ignore scan.")
-            except Exception as e:
-                log(f"[{datetime.datetime.now()}] Error checking Web UI status: {e}")
+            except Exception:
+                pass
             
-            # Backup check for PC Spooler (in case Web UI doesn't say Printing)
+            # Backup check for PC Spooler
             if not was_pc_printing:
                 try:
                     import subprocess
@@ -181,7 +183,7 @@ def main():
                     if int(res.stdout.strip()) > 0:
                         was_pc_printing = True
                         log(f"[{datetime.datetime.now()}] Detected active PC print job via Spooler. Will ignore scan.")
-                except Exception as e:
+                except Exception:
                     pass
             
         elif state == "Idle" and copy_in_progress:
