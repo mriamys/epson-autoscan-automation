@@ -229,6 +229,17 @@ def main():
             copy_in_progress = True
             was_pc_printing = False
             
+        if state == "Idle" and copy_in_progress:
+            log(f"[{datetime.datetime.now()}] Printer returned to Idle.")
+            copy_in_progress = False
+            
+            if was_pc_printing:
+                log("Printer finished a PC print job. Skipping scan.")
+            else:
+                log("Printer finished a Copy. Waiting 1 second for mechanisms to settle...")
+                time.sleep(1)
+                trigger_scan(config)
+
         if copy_in_progress and not was_pc_printing:
             # Check Printer Web UI to see if it's printing
             try:
@@ -261,16 +272,7 @@ def main():
                 except Exception:
                     pass
             
-        elif state == "Idle" and copy_in_progress:
-            log(f"[{datetime.datetime.now()}] Printer returned to Idle.")
-            copy_in_progress = False
-            
-            if was_pc_printing:
-                log("Printer finished a PC print job. Skipping scan.")
-            else:
-                log("Printer finished a Copy. Waiting 1 second for mechanisms to settle...")
-                time.sleep(1)
-                trigger_scan(config)
+
             
         time.sleep(1)
 

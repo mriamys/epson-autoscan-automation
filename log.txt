@@ -1539,3 +1539,15 @@ Downloading from: https://192.168.0.122:443/eSCL/ScanJobs/13f12db1-7777-4b6d-b04
 [2026-10-04 20:13:26.319360] State changed: Processing -> Idle
 [2026-10-04 20:14:13.485726] State changed: Idle -> Processing
 [2026-10-04 20:19:23.015751] State changed: Processing -> Idle
+[2026-10-04 20:30:42.359410] Epson AutoScan Service Started!
+[2026-10-04 20:30:42.451536] State changed: None -> Idle
+[2026-10-04 20:31:11.397007] State changed: Idle -> Processing
+[2026-10-04 20:31:11.397383] Printer is now active.
+[2026-10-04 20:31:11.521310] Web UI Printer Status: Busy.
+[2026-10-04 20:31:13.083033] Web UI Printer Status: Busy.
+[2026-10-04 20:31:14.576469] Web UI Printer Status: Busy.
+[2026-10-04 20:31:16.080897] Web UI Printer Status: Busy.
+[2026-10-04 20:31:17.605137] Web UI Printer Status: Busy.
+[2026-10-04 20:31:19.102290] Web UI Printer Status: Busy.
+[2026-10-04 20:31:20.588194] Web UI Printer Status: Busy.
+[2026-10-04 20:31:22.175986] State changed: Processing -> Idle
