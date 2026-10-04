@@ -12,7 +12,10 @@ LOG_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "log.txt")
 def log(msg):
     with open(LOG_FILE, "a", encoding="utf-8") as f:
         f.write(msg + "\n")
-    print(msg)
+    try:
+        print(msg)
+    except:
+        pass
 
 def load_config():
     try:
