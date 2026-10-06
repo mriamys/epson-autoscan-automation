@@ -1551,3 +1551,108 @@ Downloading from: https://192.168.0.122:443/eSCL/ScanJobs/13f12db1-7777-4b6d-b04
 [2026-10-04 20:31:19.102290] Web UI Printer Status: Busy.
 [2026-10-04 20:31:20.588194] Web UI Printer Status: Busy.
 [2026-10-04 20:31:22.175986] State changed: Processing -> Idle
+[2026-10-04 20:36:47.565460] Epson AutoScan Service Started!
+[2026-10-04 20:36:47.733020] State changed: None -> Idle
+[2026-10-04 20:37:02.135247] State changed: Idle -> Processing
+[2026-10-04 20:37:02.135744] Printer is now active.
+[2026-10-04 20:37:02.244058] Web UI Printer Status: Busy.
+[2026-10-04 20:37:03.809703] Web UI Printer Status: Busy.
+[2026-10-04 20:37:05.350895] Web UI Printer Status: Busy.
+[2026-10-04 20:37:06.838530] Web UI Printer Status: Busy.
+[2026-10-04 20:37:08.334101] Web UI Printer Status: Busy.
+[2026-10-04 20:37:09.815905] Web UI Printer Status: Busy.
+[2026-10-04 20:37:11.257106] Web UI Printer Status: Busy.
+[2026-10-04 20:37:12.597487] State changed: Processing -> Idle
+[2026-10-04 20:37:12.597976] Printer returned to Idle.
+Printer finished a Copy. Waiting 1 second for mechanisms to settle...
+[2026-10-04 20:37:13.598856] Triggering network scan at 300 DPI...
+Downloading from: https://192.168.0.122:443/eSCL/ScanJobs/2cbd931c-0840-4baf-b97e-6101eb541b69/NextDocument
+[2026-10-04 20:37:46.218613] Successfully saved to: C:\Users\Administrator\Pictures\EpsonScan_20261004_203714.jpg
+[2026-10-04 20:37:46.290591] Scan job released on printer.
+[2026-10-04 20:38:03.769353] State changed: Idle -> Processing
+[2026-10-04 20:38:03.769676] Printer is now active.
+[2026-10-04 20:38:03.884899] Web UI Printer Status: Busy.
+[2026-10-04 20:38:04.209498] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-04 20:38:14.953728] State changed: Processing -> Idle
+[2026-10-04 20:38:14.954148] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-05 17:40:14.592816] Epson AutoScan Service Started!
+[2026-10-05 17:40:14.792559] State changed: None -> Idle
+[2026-10-05 18:24:51.697779] State changed: Idle -> Processing
+[2026-10-05 18:24:51.698157] Printer is now active.
+[2026-10-05 18:24:51.814251] Web UI Printer Status: Busy.
+[2026-10-05 18:24:52.321395] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-05 18:25:10.597017] State changed: Processing -> Idle
+[2026-10-05 18:25:10.597362] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-05 19:05:06.936940] State changed: Idle -> Processing
+[2026-10-05 19:05:06.937296] Printer is now active.
+[2026-10-05 19:05:07.064312] Web UI Printer Status: Busy.
+[2026-10-05 19:05:07.539689] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-05 19:05:25.808408] State changed: Processing -> Idle
+[2026-10-05 19:05:25.808808] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-05 19:05:57.052970] State changed: Idle -> Processing
+[2026-10-05 19:05:57.053318] Printer is now active.
+[2026-10-05 19:05:57.174917] Web UI Printer Status: Busy.
+[2026-10-05 19:05:57.484604] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-05 19:06:10.365467] State changed: Processing -> Idle
+[2026-10-05 19:06:10.365819] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-05 19:09:13.232630] State changed: Idle -> Processing
+[2026-10-05 19:09:13.232990] Printer is now active.
+[2026-10-05 19:09:13.364365] Web UI Printer Status: Busy.
+[2026-10-05 19:09:13.654923] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-05 19:09:29.867417] State changed: Processing -> Idle
+[2026-10-05 19:09:29.867882] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-05 19:16:06.987339] State changed: Idle -> Processing
+[2026-10-05 19:16:06.987692] Printer is now active.
+[2026-10-05 19:16:07.163751] Web UI Printer Status: Busy.
+[2026-10-05 19:16:07.459248] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-05 19:16:23.606691] State changed: Processing -> Idle
+[2026-10-05 19:16:23.607162] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-05 19:54:28.470989] State changed: Idle -> Processing
+[2026-10-05 19:54:28.471386] Printer is now active.
+[2026-10-05 19:54:28.578170] Web UI Printer Status: Busy.
+[2026-10-05 19:54:28.944637] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-05 19:55:42.132854] State changed: Processing -> Idle
+[2026-10-05 19:55:42.133243] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-05 20:50:41.249079] State changed: Idle -> Processing
+[2026-10-05 20:50:41.249722] Printer is now active.
+[2026-10-05 20:50:41.375911] Web UI Printer Status: Busy.
+[2026-10-05 20:50:41.715875] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-05 20:55:41.057383] State changed: Processing -> Idle
+[2026-10-05 20:55:41.057964] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-06 12:50:59.741432] Epson AutoScan Service Started!
+[2026-10-06 12:50:59.878110] State changed: None -> Idle
+[2026-10-06 14:06:50.795877] State changed: Idle -> Processing
+[2026-10-06 14:06:50.796701] Printer is now active.
+[2026-10-06 14:07:13.807453] State changed: Processing -> Idle
+[2026-10-06 14:07:13.807902] Printer returned to Idle.
+Printer finished a Copy. Waiting 1 second for mechanisms to settle...
+[2026-10-06 14:07:14.808928] Triggering network scan at 300 DPI...
+Downloading from: https://192.168.0.122:443/eSCL/ScanJobs/d01e04b1-fda4-43de-8ece-a0f8f28b0841/NextDocument
+[2026-10-06 14:07:46.695639] Successfully saved to: C:\Users\Administrator\Pictures\EpsonScan_20261006_140715.jpg
+[2026-10-06 14:07:46.793538] Scan job released on printer.
+[2026-10-06 14:09:22.918177] State changed: Idle -> Processing
+[2026-10-06 14:09:22.918516] Printer is now active.
+[2026-10-06 14:09:45.265722] State changed: Processing -> Idle
+[2026-10-06 14:09:45.266070] Printer returned to Idle.
+Printer finished a Copy. Waiting 1 second for mechanisms to settle...
+[2026-10-06 14:09:46.267000] Triggering network scan at 300 DPI...
+Downloading from: https://192.168.0.122:443/eSCL/ScanJobs/95463023-0d24-41f0-b5b2-a39051e38d6b/NextDocument
+[2026-10-06 14:10:18.775707] Successfully saved to: C:\Users\Administrator\Pictures\EpsonScan_20261006_140947.jpg
+[2026-10-06 14:10:18.852510] Scan job released on printer.
+[2026-10-06 14:10:49.817875] State changed: Idle -> Processing
+[2026-10-06 14:10:49.818352] Printer is now active.
+[2026-10-06 14:11:12.284404] State changed: Processing -> Idle
+[2026-10-06 14:11:12.284831] Printer returned to Idle.
+Printer finished a Copy. Waiting 1 second for mechanisms to settle...
+[2026-10-06 14:11:13.285726] Triggering network scan at 300 DPI...
+Downloading from: https://192.168.0.122:443/eSCL/ScanJobs/3e940155-daa9-4d74-b295-15f205bc8ab8/NextDocument
+[2026-10-06 14:11:45.370286] Successfully saved to: C:\Users\Administrator\Pictures\EpsonScan_20261006_141114.jpg
+[2026-10-06 14:11:45.444537] Scan job released on printer.

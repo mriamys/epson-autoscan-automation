@@ -271,6 +271,25 @@ def main():
                         log(f"[{datetime.datetime.now()}] Detected active PC print job via Spooler. Will ignore scan.")
                 except Exception:
                     pass
+                    
+            # Check for ANY other active TCP connection to the printer from this PC (e.g. Epson ScanSmart)
+            if not was_pc_printing:
+                try:
+                    import subprocess, os
+                    my_pid = os.getpid()
+                    cmd = f"Get-NetTCPConnection -RemoteAddress {ip} -State Established -ErrorAction SilentlyContinue | Select-Object -ExpandProperty OwningProcess"
+                    res = subprocess.run(["powershell", "-Command", cmd], capture_output=True, text=True, creationflags=subprocess.CREATE_NO_WINDOW)
+                    pids = res.stdout.strip().split('
+')
+                    for pid_str in pids:
+                        pid_str = pid_str.strip()
+                        if pid_str and pid_str.isdigit():
+                            if int(pid_str) != my_pid:
+                                was_pc_printing = True
+                                log(f"[{datetime.datetime.now()}] Detected active PC connection to printer (PID {pid_str}). Assuming PC Scan/Print. Will ignore.")
+                                break
+                except Exception:
+                    pass
             
 
             
