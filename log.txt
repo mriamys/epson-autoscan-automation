@@ -1656,3 +1656,11 @@ Printer finished a Copy. Waiting 1 second for mechanisms to settle...
 Downloading from: https://192.168.0.122:443/eSCL/ScanJobs/3e940155-daa9-4d74-b295-15f205bc8ab8/NextDocument
 [2026-10-06 14:11:45.370286] Successfully saved to: C:\Users\Administrator\Pictures\EpsonScan_20261006_141114.jpg
 [2026-10-06 14:11:45.444537] Scan job released on printer.
+[2026-10-08 14:46:28.916972] Epson AutoScan Service Started!
+[2026-10-08 14:46:29.125709] State changed: None -> Idle
+[2026-10-08 14:47:09.269376] Epson AutoScan Service Started!
+[2026-10-08 14:47:09.385740] State changed: None -> Idle
+[2026-10-08 14:48:33.566061] Epson AutoScan Service Started!
+[2026-10-08 14:48:33.693232] State changed: None -> Idle
+[2026-10-08 14:49:40.022215] Epson AutoScan Service Started!
+[2026-10-08 14:49:40.205937] State changed: None -> Idle

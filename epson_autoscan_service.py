@@ -279,8 +279,7 @@ def main():
                     my_pid = os.getpid()
                     cmd = f"Get-NetTCPConnection -RemoteAddress {ip} -State Established -ErrorAction SilentlyContinue | Select-Object -ExpandProperty OwningProcess"
                     res = subprocess.run(["powershell", "-Command", cmd], capture_output=True, text=True, creationflags=subprocess.CREATE_NO_WINDOW)
-                    pids = res.stdout.strip().split('
-')
+                    pids = res.stdout.strip().split('\n')
                     for pid_str in pids:
                         pid_str = pid_str.strip()
                         if pid_str and pid_str.isdigit():
