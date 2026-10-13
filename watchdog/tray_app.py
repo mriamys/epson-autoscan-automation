@@ -54,6 +54,14 @@ job_xml = '''<?xml version="1.0" encoding="UTF-8"?>
     <scan:ColorMode>{color}</scan:ColorMode>
     <scan:XResolution>{dpi}</scan:XResolution>
     <scan:YResolution>{dpi}</scan:YResolution>
+    <scan:ScanRegions>
+        <scan:ScanRegion>
+            <scan:XOffset>0</scan:XOffset>
+            <scan:YOffset>0</scan:YOffset>
+            <scan:Width>2550</scan:Width>
+            <scan:Height>3510</scan:Height>
+        </scan:ScanRegion>
+    </scan:ScanRegions>
 </scan:ScanSettings>'''
 
 try:

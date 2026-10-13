@@ -124,8 +124,9 @@ def trigger_scan(config):
     
     log(f"[{datetime.datetime.now()}] Triggering network scan at {dpi} DPI...")
     
-    # 2454 x 3414 is max scan region for 300 DPI, but since it's generic let's ask for the max the scanner handles. 
-    # eSCL usually figures out the resolution.
+    # Full Platen dimensions from ScannerCapabilities:
+    # MaxWidth: 2550 (8.5 in / 215.9 mm - covers full A4 width 210 mm)
+    # MaxHeight: 3510 (11.7 in / 297.18 mm - covers full A4 height 297 mm without cutting bottom)
     xml_data = f"""<?xml version="1.0" encoding="UTF-8"?>
 <scan:ScanSettings xmlns:scan="http://schemas.hp.com/imaging/escl/2011/05/03" xmlns:pwg="http://www.pwg.org/schemas/2010/12/sm">
     <pwg:Version>2.9</pwg:Version>
@@ -137,8 +138,10 @@ def trigger_scan(config):
     <scan:YResolution>{dpi}</scan:YResolution>
     <scan:ScanRegions>
         <scan:ScanRegion>
-            <scan:Width>2454</scan:Width>
-            <scan:Height>3414</scan:Height>
+            <scan:XOffset>0</scan:XOffset>
+            <scan:YOffset>0</scan:YOffset>
+            <scan:Width>2550</scan:Width>
+            <scan:Height>3510</scan:Height>
         </scan:ScanRegion>
     </scan:ScanRegions>
 </scan:ScanSettings>"""
