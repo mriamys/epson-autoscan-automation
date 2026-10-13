@@ -1664,3 +1664,543 @@ Downloading from: https://192.168.0.122:443/eSCL/ScanJobs/3e940155-daa9-4d74-b29
 [2026-10-08 14:48:33.693232] State changed: None -> Idle
 [2026-10-08 14:49:40.022215] Epson AutoScan Service Started!
 [2026-10-08 14:49:40.205937] State changed: None -> Idle
+[2026-10-08 14:51:11.406227] State changed: Idle -> Processing
+[2026-10-08 14:51:11.406518] Printer is now active.
+[2026-10-08 14:51:11.505446] Web UI Printer Status: Busy.
+[2026-10-08 14:51:15.556667] Web UI Printer Status: Busy.
+[2026-10-08 14:51:19.015253] Web UI Printer Status: Busy.
+[2026-10-08 14:51:22.323892] State changed: Processing -> Idle
+[2026-10-08 14:51:22.324167] Printer returned to Idle.
+Printer finished a Copy. Waiting 1 second for mechanisms to settle...
+[2026-10-08 14:51:23.324847] Triggering network scan at 300 DPI...
+Downloading from: https://192.168.0.122:443/eSCL/ScanJobs/3480a5e2-1d7a-480c-a60f-d6bdba8118b1/NextDocument
+[2026-10-08 14:51:55.297969] Successfully saved to: C:\Users\Administrator\Pictures\EpsonScan_20261008_145124.jpg
+[2026-10-08 14:51:55.399703] Scan job released on printer.
+[2026-10-08 15:21:00.813509] State changed: Idle -> Processing
+[2026-10-08 15:21:00.813867] Printer is now active.
+[2026-10-08 15:21:00.928630] Web UI Printer Status: Busy.
+[2026-10-08 15:21:01.350950] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-08 15:21:53.963924] State changed: Processing -> Idle
+[2026-10-08 15:21:53.964216] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-08 15:26:51.541647] State changed: Idle -> Processing
+[2026-10-08 15:26:51.541920] Printer is now active.
+[2026-10-08 15:26:51.659401] Web UI Printer Status: Busy.
+[2026-10-08 15:26:52.210273] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-08 15:27:14.323294] State changed: Processing -> Idle
+[2026-10-08 15:27:14.323579] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-08 15:28:02.839812] State changed: Idle -> Processing
+[2026-10-08 15:28:02.840101] Printer is now active.
+[2026-10-08 15:28:02.971795] Web UI Printer Status: Busy.
+[2026-10-08 15:28:03.431958] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-08 15:29:38.053521] State changed: Processing -> Idle
+[2026-10-08 15:29:38.053815] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-08 15:30:15.614617] State changed: Idle -> Processing
+[2026-10-08 15:30:15.615175] Printer is now active.
+[2026-10-08 15:30:15.768074] Web UI Printer Status: Busy.
+[2026-10-08 15:30:16.206909] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-08 15:30:22.680172] State changed: Processing -> Idle
+[2026-10-08 15:30:22.680455] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-08 15:30:53.970276] State changed: Idle -> Processing
+[2026-10-08 15:30:53.970650] Printer is now active.
+[2026-10-08 15:30:54.127333] Web UI Printer Status: Busy.
+[2026-10-08 15:30:54.510671] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-08 15:33:43.409600] State changed: Processing -> Idle
+[2026-10-08 15:33:43.409962] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-08 17:14:58.267998] Epson AutoScan Service Started!
+[2026-10-08 17:14:58.549348] State changed: None -> Idle
+[2026-10-08 17:51:38.204723] State changed: Idle -> Processing
+[2026-10-08 17:51:38.205262] Printer is now active.
+[2026-10-08 17:51:38.521426] Web UI Printer Status: Busy.
+[2026-10-08 17:51:38.877559] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-08 17:52:05.966920] State changed: Processing -> Idle
+[2026-10-08 17:52:05.967210] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-08 20:40:23.231281] State changed: Idle -> Processing
+[2026-10-08 20:40:23.238568] Printer is now active.
+[2026-10-08 20:40:23.362900] Web UI Printer Status: Busy.
+[2026-10-08 20:40:23.776092] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-08 20:40:49.050632] State changed: Processing -> Idle
+[2026-10-08 20:40:49.050902] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-09 13:36:02.152000] Epson AutoScan Service Started!
+[2026-10-09 13:36:02.385553] State changed: None -> Idle
+[2026-10-09 15:21:59.854569] State changed: Idle -> Processing
+[2026-10-09 15:21:59.861780] Printer is now active.
+[2026-10-09 15:21:59.978292] Web UI Printer Status: Busy.
+[2026-10-09 15:22:00.434663] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-09 15:22:18.077493] State changed: Processing -> Idle
+[2026-10-09 15:22:18.077787] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-09 17:51:52.581194] State changed: Idle -> Processing
+[2026-10-09 17:51:52.583212] Printer is now active.
+[2026-10-09 17:51:54.829812] Web UI Printer Status: Busy.
+[2026-10-09 17:51:55.270893] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-09 17:52:04.128656] State changed: Processing -> Idle
+[2026-10-09 17:52:04.128952] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-09 18:05:23.580620] State changed: Idle -> Processing
+[2026-10-09 18:05:23.580894] Printer is now active.
+[2026-10-09 18:05:23.698347] Web UI Printer Status: Busy.
+[2026-10-09 18:05:26.655637] Web UI Printer Status: Busy.
+[2026-10-09 18:05:28.887449] Web UI Printer Status: Busy.
+[2026-10-09 18:05:31.173881] Web UI Printer Status: Busy.
+[2026-10-09 18:05:33.420257] Web UI Printer Status: Busy.
+[2026-10-09 18:05:35.673312] Web UI Printer Status: Busy.
+[2026-10-09 18:05:37.823961] State changed: Processing -> Idle
+[2026-10-09 18:05:37.824269] Printer returned to Idle.
+Printer finished a Copy. Waiting 1 second for mechanisms to settle...
+[2026-10-09 18:05:38.825049] Triggering network scan at 300 DPI...
+Downloading from: https://192.168.0.122:443/eSCL/ScanJobs/285f0ea2-94b9-4e65-a3be-0ba7c1ebc7a1/NextDocument
+[2026-10-09 18:06:07.320160] Successfully saved to: C:\Users\Administrator\Pictures\EpsonScan_20261009_180539.jpg
+[2026-10-09 18:06:07.390909] Scan job released on printer.
+[2026-10-09 18:08:32.513870] State changed: Idle -> Processing
+[2026-10-09 18:08:32.514167] Printer is now active.
+[2026-10-09 18:08:33.784149] Detected active PC connection to printer (PID 8764). Assuming PC Scan/Print. Will ignore.
+[2026-10-09 18:10:38.717163] State changed: Processing -> Idle
+[2026-10-09 18:10:38.717525] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-09 18:10:41.902127] State changed: Idle -> Processing
+[2026-10-09 18:10:41.902377] Printer is now active.
+[2026-10-09 18:10:42.016500] Web UI Printer Status: Busy.
+[2026-10-09 18:10:44.339844] Web UI Printer Status: Busy.
+[2026-10-09 18:10:46.575127] Web UI Printer Status: Busy.
+[2026-10-09 18:10:48.893580] Web UI Printer Status: Busy.
+[2026-10-09 18:10:51.150503] Web UI Printer Status: Busy.
+[2026-10-09 18:10:53.440624] Web UI Printer Status: Busy.
+[2026-10-09 18:10:55.699832] Web UI Printer Status: Busy.
+[2026-10-09 18:10:57.904428] State changed: Processing -> Idle
+[2026-10-09 18:10:57.904696] Printer returned to Idle.
+Printer finished a Copy. Waiting 1 second for mechanisms to settle...
+[2026-10-09 18:10:58.905077] Triggering network scan at 300 DPI...
+Downloading from: https://192.168.0.122:443/eSCL/ScanJobs/eda65c89-f4a2-446b-b663-362426809942/NextDocument
+[2026-10-09 18:11:25.100440] Successfully saved to: C:\Users\Administrator\Pictures\EpsonScan_20261009_181059.jpg
+[2026-10-09 18:11:25.177710] Scan job released on printer.
+[2026-10-09 18:12:38.681214] State changed: Idle -> Processing
+[2026-10-09 18:12:38.681560] Printer is now active.
+[2026-10-09 18:12:39.962112] Detected active PC connection to printer (PID 19768). Assuming PC Scan/Print. Will ignore.
+[2026-10-09 18:13:23.962065] State changed: Processing -> Idle
+[2026-10-09 18:13:23.962360] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-09 18:13:59.311944] State changed: Idle -> Processing
+[2026-10-09 18:13:59.312183] Printer is now active.
+[2026-10-09 18:14:00.582462] Detected active PC connection to printer (PID 18360). Assuming PC Scan/Print. Will ignore.
+[2026-10-09 18:14:21.550634] State changed: Processing -> Idle
+[2026-10-09 18:14:21.550873] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-09 18:15:21.009017] State changed: Idle -> Processing
+[2026-10-09 18:15:21.009306] Printer is now active.
+[2026-10-09 18:15:22.302438] Detected active PC connection to printer (PID 34268). Assuming PC Scan/Print. Will ignore.
+[2026-10-09 18:15:43.673705] State changed: Processing -> Idle
+[2026-10-09 18:15:43.674008] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-09 18:16:16.321811] State changed: Idle -> Processing
+[2026-10-09 18:16:16.322104] Printer is now active.
+[2026-10-09 18:16:16.434946] Web UI Printer Status: Busy.
+[2026-10-09 18:16:16.762931] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-09 18:16:30.209828] State changed: Processing -> Idle
+[2026-10-09 18:16:30.210153] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-09 18:16:39.999369] State changed: Idle -> Processing
+[2026-10-09 18:16:39.999665] Printer is now active.
+[2026-10-09 18:16:40.127011] Web UI Printer Status: Busy.
+[2026-10-09 18:16:40.423049] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-09 18:16:51.154370] State changed: Processing -> Idle
+[2026-10-09 18:16:51.154663] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-09 18:23:14.681457] State changed: Idle -> Processing
+[2026-10-09 18:23:14.681721] Printer is now active.
+[2026-10-09 18:23:15.888093] Web UI Printer Status: Busy.
+[2026-10-09 18:23:16.186364] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-09 18:27:38.499474] State changed: Processing -> Idle
+[2026-10-09 18:27:38.499812] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-09 18:27:41.710204] State changed: Idle -> Processing
+[2026-10-09 18:27:41.710453] Printer is now active.
+[2026-10-09 18:27:41.816548] Web UI Printer Status: Busy.
+[2026-10-09 18:27:42.126130] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-09 18:31:17.991532] State changed: Processing -> Idle
+[2026-10-09 18:31:17.991913] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-10 14:27:11.777689] Epson AutoScan Service Started!
+[2026-10-10 14:27:11.982172] State changed: None -> Idle
+[2026-10-11 13:31:37.499444] Epson AutoScan Service Started!
+[2026-10-11 13:31:37.708485] State changed: None -> Idle
+[2026-10-11 14:28:30.958874] State changed: Idle -> Processing
+[2026-10-11 14:28:30.959119] Printer is now active.
+[2026-10-11 14:28:31.080896] Web UI Printer Status: Busy.
+[2026-10-11 14:28:31.461640] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-11 14:32:29.449817] State changed: Processing -> Idle
+[2026-10-11 14:32:29.450131] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-11 14:46:17.363718] State changed: Idle -> Processing
+[2026-10-11 14:46:17.364056] Printer is now active.
+[2026-10-11 14:46:17.548097] Web UI Printer Status: Busy.
+[2026-10-11 14:46:17.926918] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-11 14:49:32.228015] State changed: Processing -> Idle
+[2026-10-11 14:49:32.228378] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-11 16:30:55.350964] Epson AutoScan Service Started!
+[2026-10-11 16:30:55.554794] State changed: None -> Idle
+[2026-10-12 14:10:24.848049] Epson AutoScan Service Started!
+[2026-10-12 14:10:25.095718] State changed: None -> Idle
+[2026-10-12 16:06:55.619317] State changed: Idle -> Processing
+[2026-10-12 16:06:55.619602] Printer is now active.
+[2026-10-12 16:06:57.641924] Detected active PC connection to printer (PID 6420). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:07:18.024173] State changed: Processing -> Idle
+[2026-10-12 16:07:18.024491] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:10:09.524554] State changed: Idle -> Processing
+[2026-10-12 16:10:09.524866] Printer is now active.
+[2026-10-12 16:10:10.850608] Detected active PC connection to printer (PID 18236). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:10:31.747354] State changed: Processing -> Idle
+[2026-10-12 16:10:31.747643] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:11:06.898339] State changed: Idle -> Processing
+[2026-10-12 16:11:06.898637] Printer is now active.
+[2026-10-12 16:11:08.190983] Detected active PC connection to printer (PID 36612). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:11:29.186413] State changed: Processing -> Idle
+[2026-10-12 16:11:29.186693] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:12:03.733795] State changed: Idle -> Processing
+[2026-10-12 16:12:03.734307] Printer is now active.
+[2026-10-12 16:12:05.031659] Detected active PC connection to printer (PID 11292). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:12:26.612423] State changed: Processing -> Idle
+[2026-10-12 16:12:26.612767] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:12:41.821427] State changed: Idle -> Processing
+[2026-10-12 16:12:41.821699] Printer is now active.
+[2026-10-12 16:12:43.161781] Detected active PC connection to printer (PID 3452). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:13:04.079898] State changed: Processing -> Idle
+[2026-10-12 16:13:04.080195] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:14:31.001622] State changed: Idle -> Processing
+[2026-10-12 16:14:31.001899] Printer is now active.
+[2026-10-12 16:14:32.344519] Detected active PC connection to printer (PID 15208). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:15:01.809593] State changed: Processing -> Idle
+[2026-10-12 16:15:01.809928] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:16:30.208022] State changed: Idle -> Processing
+[2026-10-12 16:16:30.208378] Printer is now active.
+[2026-10-12 16:16:31.650629] Detected active PC connection to printer (PID 24532). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:17:00.010834] State changed: Processing -> Idle
+[2026-10-12 16:17:00.011132] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:17:53.084828] State changed: Idle -> Processing
+[2026-10-12 16:17:53.085126] Printer is now active.
+[2026-10-12 16:17:58.069780] Web UI Printer Status: Busy.
+[2026-10-12 16:18:00.550728] Web UI Printer Status: Busy.
+[2026-10-12 16:18:02.864462] Web UI Printer Status: Busy.
+[2026-10-12 16:18:05.285070] Web UI Printer Status: Busy.
+[2026-10-12 16:18:07.747310] Web UI Printer Status: Busy.
+[2026-10-12 16:18:08.956287] Detected active PC connection to printer (PID 6504). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:18:31.829530] State changed: Processing -> Idle
+[2026-10-12 16:18:31.829830] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:18:32.919199] State changed: Idle -> Processing
+[2026-10-12 16:18:32.919559] Printer is now active.
+[2026-10-12 16:18:35.410058] Web UI Printer Status: Busy.
+[2026-10-12 16:18:37.701429] Web UI Printer Status: Busy.
+[2026-10-12 16:18:40.041877] Web UI Printer Status: Busy.
+[2026-10-12 16:18:42.343037] Web UI Printer Status: Busy.
+[2026-10-12 16:18:44.679694] Web UI Printer Status: Busy.
+[2026-10-12 16:18:47.065427] Web UI Printer Status: Busy.
+[2026-10-12 16:18:48.245015] Detected active PC connection to printer (PID 7316). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:19:11.199308] State changed: Processing -> Idle
+[2026-10-12 16:19:11.199601] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:19:36.457711] State changed: Idle -> Processing
+[2026-10-12 16:19:36.458009] Printer is now active.
+[2026-10-12 16:19:37.783007] Detected active PC connection to printer (PID 10864). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:19:57.530429] State changed: Processing -> Idle
+[2026-10-12 16:19:57.530723] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:20:29.140976] State changed: Idle -> Processing
+[2026-10-12 16:20:29.141273] Printer is now active.
+[2026-10-12 16:20:30.464236] Detected active PC connection to printer (PID 25676). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:20:51.145278] State changed: Processing -> Idle
+[2026-10-12 16:20:51.145628] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:21:29.222530] State changed: Idle -> Processing
+[2026-10-12 16:21:29.222878] Printer is now active.
+[2026-10-12 16:21:30.454220] Detected active PC connection to printer (PID 15524). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:21:50.760671] State changed: Processing -> Idle
+[2026-10-12 16:21:50.761037] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:22:51.103235] State changed: Idle -> Processing
+[2026-10-12 16:22:51.103636] Printer is now active.
+[2026-10-12 16:22:52.418279] Detected active PC connection to printer (PID 17528). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:23:13.025982] State changed: Processing -> Idle
+[2026-10-12 16:23:13.026350] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:23:38.853789] State changed: Idle -> Processing
+[2026-10-12 16:23:38.854045] Printer is now active.
+[2026-10-12 16:23:40.140510] Detected active PC connection to printer (PID 9824). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:24:01.521287] State changed: Processing -> Idle
+[2026-10-12 16:24:01.521734] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:31:29.997935] State changed: Idle -> Processing
+[2026-10-12 16:31:29.998240] Printer is now active.
+[2026-10-12 16:31:31.297103] Detected active PC connection to printer (PID 15308). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:31:52.632578] State changed: Processing -> Idle
+[2026-10-12 16:31:52.632918] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:32:20.650177] State changed: Idle -> Processing
+[2026-10-12 16:32:20.650465] Printer is now active.
+[2026-10-12 16:32:21.924037] Detected active PC connection to printer (PID 37840). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:32:42.739395] State changed: Processing -> Idle
+[2026-10-12 16:32:42.739681] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:33:14.064078] State changed: Idle -> Processing
+[2026-10-12 16:33:14.064331] Printer is now active.
+[2026-10-12 16:33:15.362005] Detected active PC connection to printer (PID 2612). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:33:36.154026] State changed: Processing -> Idle
+[2026-10-12 16:33:36.154325] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:33:58.837048] State changed: Idle -> Processing
+[2026-10-12 16:33:58.837364] Printer is now active.
+[2026-10-12 16:34:00.106507] Detected active PC connection to printer (PID 5152). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:34:20.530843] State changed: Processing -> Idle
+[2026-10-12 16:34:20.531205] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:34:57.107248] State changed: Idle -> Processing
+[2026-10-12 16:34:57.107542] Printer is now active.
+[2026-10-12 16:34:58.380642] Detected active PC connection to printer (PID 25528). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:35:18.471501] State changed: Processing -> Idle
+[2026-10-12 16:35:18.471784] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:35:34.684487] State changed: Idle -> Processing
+[2026-10-12 16:35:34.684772] Printer is now active.
+[2026-10-12 16:35:35.927919] Detected active PC connection to printer (PID 15400). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:35:57.365599] State changed: Processing -> Idle
+[2026-10-12 16:35:57.365905] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:36:24.324888] State changed: Idle -> Processing
+[2026-10-12 16:36:24.325172] Printer is now active.
+[2026-10-12 16:36:25.658889] Detected active PC connection to printer (PID 37804). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:36:48.357934] State changed: Processing -> Idle
+[2026-10-12 16:36:48.358289] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:37:27.194061] State changed: Idle -> Processing
+[2026-10-12 16:37:27.194446] Printer is now active.
+[2026-10-12 16:37:28.482762] Detected active PC connection to printer (PID 4380). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:37:48.939138] State changed: Processing -> Idle
+[2026-10-12 16:37:48.939516] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:38:15.110597] State changed: Idle -> Processing
+[2026-10-12 16:38:15.110881] Printer is now active.
+[2026-10-12 16:38:16.422537] Detected active PC connection to printer (PID 34124). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:38:37.387970] State changed: Processing -> Idle
+[2026-10-12 16:38:37.388251] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:48:32.917080] State changed: Idle -> Processing
+[2026-10-12 16:48:32.917404] Printer is now active.
+[2026-10-12 16:48:34.529431] Detected active PC connection to printer (PID 24916). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:48:55.303713] State changed: Processing -> Idle
+[2026-10-12 16:48:55.304008] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:53:06.903529] State changed: Idle -> Processing
+[2026-10-12 16:53:06.903874] Printer is now active.
+[2026-10-12 16:53:08.218831] Detected active PC connection to printer (PID 20064). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:53:29.014903] State changed: Processing -> Idle
+[2026-10-12 16:53:29.015460] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:54:03.464570] State changed: Idle -> Processing
+[2026-10-12 16:54:03.464910] Printer is now active.
+[2026-10-12 16:54:04.777538] Detected active PC connection to printer (PID 30796). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:54:26.900010] State changed: Processing -> Idle
+[2026-10-12 16:54:26.900288] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:54:42.125539] State changed: Idle -> Processing
+[2026-10-12 16:54:42.125889] Printer is now active.
+[2026-10-12 16:54:43.390025] Detected active PC connection to printer (PID 18688). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:55:04.544381] State changed: Processing -> Idle
+[2026-10-12 16:55:04.544678] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:55:40.289849] State changed: Idle -> Processing
+[2026-10-12 16:55:40.290237] Printer is now active.
+[2026-10-12 16:55:41.525165] Detected active PC connection to printer (PID 14024). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:56:02.258430] State changed: Processing -> Idle
+[2026-10-12 16:56:02.258728] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:56:27.068631] State changed: Idle -> Processing
+[2026-10-12 16:56:27.068936] Printer is now active.
+[2026-10-12 16:56:28.326759] Detected active PC connection to printer (PID 19256). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:56:49.130823] State changed: Processing -> Idle
+[2026-10-12 16:56:49.131087] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:57:25.880563] State changed: Idle -> Processing
+[2026-10-12 16:57:25.880870] Printer is now active.
+[2026-10-12 16:57:27.195841] Detected active PC connection to printer (PID 20028). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:57:47.500564] State changed: Processing -> Idle
+[2026-10-12 16:57:47.500854] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:58:09.024600] State changed: Idle -> Processing
+[2026-10-12 16:58:09.024891] Printer is now active.
+[2026-10-12 16:58:10.326161] Detected active PC connection to printer (PID 14928). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:58:31.207238] State changed: Processing -> Idle
+[2026-10-12 16:58:31.207582] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 16:58:59.297355] State changed: Idle -> Processing
+[2026-10-12 16:58:59.297672] Printer is now active.
+[2026-10-12 16:59:00.536703] Detected active PC connection to printer (PID 28068). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 16:59:21.389725] State changed: Processing -> Idle
+[2026-10-12 16:59:21.389969] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 17:00:20.166618] State changed: Idle -> Processing
+[2026-10-12 17:00:20.166932] Printer is now active.
+[2026-10-12 17:00:21.505940] Detected active PC connection to printer (PID 36752). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 17:00:41.690398] State changed: Processing -> Idle
+[2026-10-12 17:00:41.690686] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 17:02:18.798536] State changed: Idle -> Processing
+[2026-10-12 17:02:18.798832] Printer is now active.
+[2026-10-12 17:02:20.175713] Detected active PC connection to printer (PID 6176). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 17:02:42.009749] State changed: Processing -> Idle
+[2026-10-12 17:02:42.010082] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 17:06:56.126197] State changed: Idle -> Processing
+[2026-10-12 17:06:56.126505] Printer is now active.
+[2026-10-12 17:06:58.151010] Detected active PC connection to printer (PID 35836). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 17:07:17.801137] State changed: Processing -> Idle
+[2026-10-12 17:07:17.801450] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 17:07:55.051119] State changed: Idle -> Processing
+[2026-10-12 17:07:55.051424] Printer is now active.
+[2026-10-12 17:07:56.496276] Detected active PC connection to printer (PID 27936). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 17:08:16.739081] State changed: Processing -> Idle
+[2026-10-12 17:08:16.739387] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 17:08:31.391886] State changed: Idle -> Processing
+[2026-10-12 17:08:31.392167] Printer is now active.
+[2026-10-12 17:08:32.768591] Detected active PC connection to printer (PID 22376). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 17:08:53.260166] State changed: Processing -> Idle
+[2026-10-12 17:08:53.260460] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 17:09:17.252498] State changed: Idle -> Processing
+[2026-10-12 17:09:17.252800] Printer is now active.
+[2026-10-12 17:09:18.613260] Detected active PC connection to printer (PID 5456). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 17:09:39.310232] State changed: Processing -> Idle
+[2026-10-12 17:09:39.310502] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 17:10:02.021247] State changed: Idle -> Processing
+[2026-10-12 17:10:02.021602] Printer is now active.
+[2026-10-12 17:10:03.484045] Detected active PC connection to printer (PID 15008). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 17:10:23.951386] State changed: Processing -> Idle
+[2026-10-12 17:10:23.951711] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 17:10:45.484417] State changed: Idle -> Processing
+[2026-10-12 17:10:45.484826] Printer is now active.
+[2026-10-12 17:10:46.930924] Detected active PC connection to printer (PID 26992). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 17:11:07.585345] State changed: Processing -> Idle
+[2026-10-12 17:11:07.585608] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 18:35:10.809726] State changed: Idle -> Processing
+[2026-10-12 18:35:10.810056] Printer is now active.
+[2026-10-12 18:35:10.937866] Web UI Printer Status: Busy.
+[2026-10-12 18:35:11.338930] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-12 18:35:40.283897] State changed: Processing -> Idle
+[2026-10-12 18:35:40.284273] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 18:36:36.106111] State changed: Idle -> Processing
+[2026-10-12 18:36:36.106418] Printer is now active.
+[2026-10-12 18:36:36.250884] Web UI Printer Status: Busy.
+[2026-10-12 18:36:36.554275] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-12 18:37:03.476313] State changed: Processing -> Idle
+[2026-10-12 18:37:03.476600] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 18:55:10.390062] State changed: Idle -> Processing
+[2026-10-12 18:55:10.390415] Printer is now active.
+[2026-10-12 18:55:10.527291] Web UI Printer Status: Busy.
+[2026-10-12 18:55:10.836752] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-12 18:55:24.704859] State changed: Processing -> Idle
+[2026-10-12 18:55:24.705185] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 18:56:03.557186] State changed: Idle -> Processing
+[2026-10-12 18:56:03.557608] Printer is now active.
+[2026-10-12 18:56:03.719065] Web UI Printer Status: Busy.
+[2026-10-12 18:56:04.021071] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-12 18:56:35.080569] State changed: Processing -> Idle
+[2026-10-12 18:56:35.080863] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 18:57:08.367741] State changed: Idle -> Processing
+[2026-10-12 18:57:08.368047] Printer is now active.
+[2026-10-12 18:57:08.495910] Web UI Printer Status: Busy.
+[2026-10-12 18:57:08.802025] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-12 18:57:39.922516] State changed: Processing -> Idle
+[2026-10-12 18:57:39.922818] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 18:57:46.382161] State changed: Idle -> Processing
+[2026-10-12 18:57:46.382493] Printer is now active.
+[2026-10-12 18:57:46.497303] Web UI Printer Status: Busy.
+[2026-10-12 18:57:47.890616] Detected active PC connection to printer (PID 5144). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 18:58:09.319641] State changed: Processing -> Idle
+[2026-10-12 18:58:09.320000] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 18:58:38.294517] State changed: Idle -> Processing
+[2026-10-12 18:58:38.294830] Printer is now active.
+[2026-10-12 18:58:38.441661] Web UI Printer Status: Busy.
+[2026-10-12 18:58:39.581766] Detected active PC connection to printer (PID 5144). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 19:01:27.316688] State changed: Processing -> Idle
+[2026-10-12 19:01:27.317034] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-12 19:01:36.982993] State changed: Idle -> Processing
+[2026-10-12 19:01:36.983268] Printer is now active.
+[2026-10-12 19:01:37.110455] Web UI Printer Status: Busy.
+[2026-10-12 19:01:38.236538] Detected active PC connection to printer (PID 5144). Assuming PC Scan/Print. Will ignore.
+[2026-10-12 19:02:00.666960] State changed: Processing -> Idle
+[2026-10-12 19:02:00.667302] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-13 15:01:30.779634] Epson AutoScan Service Started!
+[2026-10-13 15:01:30.981689] State changed: None -> Idle
+[2026-10-13 17:35:18.813802] State changed: Idle -> Processing
+[2026-10-13 17:35:18.814103] Printer is now active.
+[2026-10-13 17:35:18.919208] Web UI Printer Status: Busy.
+[2026-10-13 17:35:19.385725] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-13 17:37:58.743163] State changed: Processing -> Idle
+[2026-10-13 17:37:58.743504] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-13 17:40:59.344270] State changed: Idle -> Processing
+[2026-10-13 17:40:59.344672] Printer is now active.
+[2026-10-13 17:40:59.451454] Web UI Printer Status: Busy.
+[2026-10-13 17:40:59.768117] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-13 17:43:39.344189] State changed: Processing -> Idle
+[2026-10-13 17:43:39.344562] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-13 17:50:42.649578] State changed: Idle -> Processing
+[2026-10-13 17:50:42.649877] Printer is now active.
+[2026-10-13 17:50:42.779611] Web UI Printer Status: Busy.
+[2026-10-13 17:50:43.107075] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-13 17:53:21.430198] State changed: Processing -> Idle
+[2026-10-13 17:53:21.430518] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-13 17:53:35.457060] State changed: Idle -> Processing
+[2026-10-13 17:53:35.457336] Printer is now active.
+[2026-10-13 17:53:35.630053] Web UI Printer Status: Busy.
+[2026-10-13 17:53:35.953028] Detected active PC print job via Spooler. Will ignore scan.
+[2026-10-13 17:56:12.339057] State changed: Processing -> Idle
+[2026-10-13 17:56:12.339404] Printer returned to Idle.
+Printer finished a PC print job. Skipping scan.
+[2026-10-13 18:44:16.229636] State changed: Idle -> Processing
+[2026-10-13 18:44:16.229961] Printer is now active.
+[2026-10-13 18:44:16.352980] Web UI Printer Status: Busy.
+[2026-10-13 18:44:19.377267] Web UI Printer Status: Busy.
+[2026-10-13 18:44:21.647710] Web UI Printer Status: Busy.
+[2026-10-13 18:44:23.955706] Web UI Printer Status: Busy.
+[2026-10-13 18:44:26.293913] Web UI Printer Status: Busy.
+[2026-10-13 18:44:28.655299] Web UI Printer Status: Busy.
+[2026-10-13 18:44:30.798661] State changed: Processing -> Idle
+[2026-10-13 18:44:30.799028] Printer returned to Idle.
+Printer finished a Copy. Waiting 1 second for mechanisms to settle...
+[2026-10-13 18:44:31.799754] Triggering network scan at 300 DPI...
+Downloading from: https://192.168.0.122:443/eSCL/ScanJobs/6ed33682-7db7-4198-9396-03ffc62f9902/NextDocument
+[2026-10-13 18:44:59.791516] Successfully saved to: C:\Users\Administrator\Pictures\EpsonScan_20261013_184433.jpg
+[2026-10-13 18:44:59.905008] Scan job released on printer.
+[2026-10-13 18:52:39.765016] Epson AutoScan Service Started!
+[2026-10-13 18:52:39.919718] State changed: None -> Idle
+[2026-10-13 18:53:51.649209] Epson AutoScan Service Started!
+[2026-10-13 18:53:51.810690] State changed: None -> Idle

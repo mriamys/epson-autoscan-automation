@@ -116,7 +116,7 @@ def is_blank_page(filepath):
         log(f"Error checking blank page: {e}")
         return False
 
-def trigger_scan(config):
+def trigger_scan(config, is_manual=False):
     ip = config["printer_ip"]
     dpi = config["dpi"]
     save_dir = config["save_dir"]
@@ -179,7 +179,7 @@ def trigger_scan(config):
                 with open(filepath, 'wb') as f:
                     f.write(doc_resp.read())
                     
-            if is_blank_page(filepath):
+            if not is_manual and is_blank_page(filepath):
                 log(f"[{datetime.datetime.now()}] Blank scan detected! Trashing {filepath}")
                 send_to_trash(filepath)
                 show_notification("Epson AutoScan", "Бланк скана удалён (печать с телефона).")
@@ -298,4 +298,9 @@ def main():
         time.sleep(1)
 
 if __name__ == "__main__":
-    main()
+    import sys
+    if "--scan-now" in sys.argv:
+        config = load_config()
+        trigger_scan(config, is_manual=True)
+    else:
+        main()

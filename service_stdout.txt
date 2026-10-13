@@ -1,0 +1,2 @@
+D:\EpsonAutoScan\epson_autoscan_service.py:109: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  data = list(ink.getdata())

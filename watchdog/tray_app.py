@@ -31,56 +31,7 @@ def toggle_autoscan(icon, item):
     icon.update_menu()
 
 def force_scan_now(icon, item):
-    import urllib.request, ssl, datetime
-    config = get_config()
-    ip = config.get("printer_ip", "192.168.0.122")
-    dpi = config.get("dpi", 300)
-    save_dir = config.get("save_dir", r"C:\Users\Administrator\Pictures")
-    color = config.get("color_mode", "RGB24")
-    
-    # Just launch a simple python script in background to do the scan so tray doesn't freeze
-    script = f"""
-import urllib.request, ssl, time, datetime, os
-ctx = ssl.create_default_context()
-ctx.check_hostname = False
-ctx.verify_mode = ssl.CERT_NONE
-
-job_xml = '''<?xml version="1.0" encoding="UTF-8"?>
-<scan:ScanSettings xmlns:scan="http://schemas.hp.com/imaging/escl/2011/05/03" xmlns:pwg="http://www.pwg.org/schemas/2010/12/sm">
-    <pwg:Version>2.9</pwg:Version>
-    <scan:Intent>Document</scan:Intent>
-    <scan:DocumentFormat>image/jpeg</scan:DocumentFormat>
-    <scan:InputSource>Platen</scan:InputSource>
-    <scan:ColorMode>{color}</scan:ColorMode>
-    <scan:XResolution>{dpi}</scan:XResolution>
-    <scan:YResolution>{dpi}</scan:YResolution>
-    <scan:ScanRegions>
-        <scan:ScanRegion>
-            <scan:XOffset>0</scan:XOffset>
-            <scan:YOffset>0</scan:YOffset>
-            <scan:Width>2550</scan:Width>
-            <scan:Height>3510</scan:Height>
-        </scan:ScanRegion>
-    </scan:ScanRegions>
-</scan:ScanSettings>'''
-
-try:
-    req = urllib.request.Request('https://{ip}/eSCL/ScanJobs', data=job_xml.encode('utf-8'), headers={{'Content-Type': 'text/xml'}}, method='POST')
-    with urllib.request.urlopen(req, context=ctx) as r:
-        url = r.headers['Location']
-    time.sleep(1)
-    req2 = urllib.request.Request(url + '/NextDocument')
-    with urllib.request.urlopen(req2, context=ctx, timeout=60) as r:
-        data = r.read()
-    if not os.path.exists(r'{save_dir}'): os.makedirs(r'{save_dir}')
-    path = os.path.join(r'{save_dir}', f'EpsonScan_{{datetime.datetime.now().strftime("%Y%m%d_%H%M%S")}}.jpg')
-    with open(path, 'wb') as f: f.write(data)
-except Exception as e:
-    pass
-"""
-    with open(r"D:\EpsonAutoScan\manual_scan.py", "w", encoding="utf-8") as f:
-        f.write(script)
-    subprocess.Popen(['pythonw.exe', r"D:\EpsonAutoScan\manual_scan.py"])
+    subprocess.Popen(['pythonw.exe', r"D:\EpsonAutoScan\epson_autoscan_service.py", "--scan-now"])
 
 def create_image():
     image = Image.new('RGB', (64, 64), color=(0, 120, 215))
