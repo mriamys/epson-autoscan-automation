@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="README.md">🇬🇧 English</a> • <a href="README.ru.md">🇷🇺 Русский</a> • <b>🇺🇦 Українська</b>
+  <a href="README.md">🇬🇧 English</a> • <a href="README.ru.md">Русский</a> • <b>🇺🇦 Українська</b>
 </p>
 
 # Epson AutoScan Automation
